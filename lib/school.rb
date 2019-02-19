@@ -18,6 +18,7 @@ class School
     @student = student
     @grade = grade
     roster[grade] = []
+    end
     roster[grade] << student
   end
  # binding.pry
