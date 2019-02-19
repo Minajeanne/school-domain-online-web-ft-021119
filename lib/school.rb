@@ -18,8 +18,8 @@ class School
     @student = student
     @grade = grade
       if roster[grade] ||= []
-    end
-    roster[grade] << student
+        roster[grade] << student
+      end
   end
  # binding.pry
 end
