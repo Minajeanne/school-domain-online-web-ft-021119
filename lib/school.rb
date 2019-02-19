@@ -1,6 +1,5 @@
  require 'pry'
 class School
-  #attr_accessor :name, :roster, :grade
   
   def initialize(name)
     @name = name
@@ -18,4 +17,18 @@ class School
     roster[grade] << student
   end
  # binding.pry
+end
+
+class Dog
+  def initialize(breed)
+    @breed = breed
+  end
+ 
+  def breed=(breed)
+    @breed = breed
+  end
+ 
+  def breed
+    @breed
+  end
 end
